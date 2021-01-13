@@ -1,0 +1,6 @@
+framework module MGTest {
+  umbrella header "MGTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

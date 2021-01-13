@@ -329,11 +329,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TestTwo_Example/Pods-TestTwo_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/TestTwo/TestTwo.framework",
+				"${BUILT_PRODUCTS_DIR}/MGTest/MGTest.framework",
+				"${BUILT_PRODUCTS_DIR}/MGTestOne/MGTestOne.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TestTwo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGTest.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGTestOne.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

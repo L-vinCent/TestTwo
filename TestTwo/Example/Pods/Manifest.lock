@@ -1,16 +1,20 @@
 PODS:
-  - TestTwo (0.1.0)
+  - MGTest (1.0.1)
+  - MGTestOne (1.0.0)
 
 DEPENDENCIES:
-  - TestTwo (from `../`)
+  - MGTest
+  - MGTestOne
 
-EXTERNAL SOURCES:
-  TestTwo:
-    :path: "../"
+SPEC REPOS:
+  trunk:
+    - MGTest
+    - MGTestOne
 
 SPEC CHECKSUMS:
-  TestTwo: 5f505f8b34995fbd90c7dfb156438b2421ffff5f
+  MGTest: f1913458690a89094c4f7cba8a8a08551fbfeb82
+  MGTestOne: a90bb8bdfd9bb99312c2d8012dfedce0a94db211
 
-PODFILE CHECKSUM: 60423321a44042c6ca42f026c993a5e4ee35f8b1
+PODFILE CHECKSUM: a3072d059a572782f019ad1df4aec5421bf7c666
 
 COCOAPODS: 1.10.1

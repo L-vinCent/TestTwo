@@ -10,7 +10,8 @@
 #endif
 #endif
 
+#import "MGTestArray.h"
 
-FOUNDATION_EXPORT double TestTwoVersionNumber;
-FOUNDATION_EXPORT const unsigned char TestTwoVersionString[];
+FOUNDATION_EXPORT double MGTestVersionNumber;
+FOUNDATION_EXPORT const unsigned char MGTestVersionString[];
 

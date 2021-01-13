@@ -7,77 +7,116 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		091402FFE1B8DA7A56BE29419634F942 /* Pods-TestTwo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A015F767E8AF5B07083CD02D1D561FCE /* Pods-TestTwo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		167124124D3D893AF5060148CC733A87 /* Pods-TestTwo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F218E2F9FD8AF73DABF966CFCB1CF8C /* Pods-TestTwo_Example-dummy.m */; };
-		2FF797B6ADD41E1C3CCB1178803796CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		C42E93B277E323334FBE8B7DE0EA43ED /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5056ECC220B5C5277D296006F0147678 /* ReplaceMe.m */; };
-		D84FE4AF175B75CD29751A38EE307E80 /* TestTwo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7666F5325E521862C26E4BDCCBD06A47 /* TestTwo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0452DFADEE17F0D545794C6633B9E962 /* ONETest.m in Sources */ = {isa = PBXBuildFile; fileRef = C35498B8E3A7C03FA7D5E49F3223FB3C /* ONETest.m */; };
+		06B951A2A0AAE0D0F096D9A62B283757 /* Pods-TestTwo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A015F767E8AF5B07083CD02D1D561FCE /* Pods-TestTwo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10BA47B1822612AA1AE17053D27AF0B5 /* MGTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A972149473B03BF0D51AA076C4A85C37 /* MGTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243F561E81F83FF24EDBADF23C7B5F8E /* MGTestArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 5021508C17BBA7E978E0EB87B8EE2E8F /* MGTestArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		245903000201C1FC568283498331BA8A /* MGTestOne-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F999A819DF17A3961EF78B16DE3C6B54 /* MGTestOne-dummy.m */; };
+		4C0A84D8DC7F79E187246009E0334C9A /* MGTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE323FFFB41773C15EDBCEB8C438D19 /* MGTest-dummy.m */; };
+		5F0D965FBCED3130A5521840EEED9959 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7460BD58D420857A9E8567F5FA39C0C4 /* ONETest.h in Headers */ = {isa = PBXBuildFile; fileRef = 028270762AC1154D5BBFE115F0B60B69 /* ONETest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77BB81FDEFADC49AF688E87744E5CD59 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2EB0437776DAE0F787E6796AA476D6 /* ReplaceMe.m */; };
+		9D6438022A91FBCFE12D6D3CE0781ADD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AEED8E2E5965FB0E7E23107C5D921441 /* Pods-TestTwo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F218E2F9FD8AF73DABF966CFCB1CF8C /* Pods-TestTwo_Example-dummy.m */; };
+		B1CF283AC7152A4DF65EACCB391607AE /* MGTestOne-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD229556B0BB21DF89302C61E3FE103 /* MGTestOne-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB5CB7391D4D1DAAB45067F76AD3F111 /* MGTestArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D12F69B2571E0B2F673F5DB6FE8907D /* MGTestArray.m */; };
+		C1BB1C097401E960D5194CFC8562C93B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E6FFCF620149578D0DE73AA2564B5DBD /* Pods-TestTwo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B3A7223BF5F08EB32C04BF1C0B7003 /* Pods-TestTwo_Tests-dummy.m */; };
-		EDA9F879D8D98D03E35F73D60BEBB5AE /* TestTwo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9C3681D3DBE259F44FFB4180752D0F /* TestTwo-dummy.m */; };
-		EF026BFB11477BA881457A117DBEDED1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		F1C921B55CC55217E3615B133D64DE9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		F72C066845D939BA86A407BC33FD801A /* Pods-TestTwo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65C36F633295394C1D8C791D1ECCFC80 /* Pods-TestTwo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8024115929A0ADF081CABB59D7FDA0B2 /* PBXContainerItemProxy */ = {
+		05425FF5BFF6D31D86612A720618C96E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1990029AD2E3C5AFB2FEABD6A4AC91CE;
-			remoteInfo = TestTwo;
+			remoteGlobalIDString = 8D79AC63D2A78B87B44DD92C3148030F;
+			remoteInfo = MGTest;
 		};
-		E359F326B99297CA77A5E42C553F7725 /* PBXContainerItemProxy */ = {
+		884B1266D7DC1A1B5EEAD037AF33179E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 98AB16A34AC4F736A0AF407BD58EDF59;
 			remoteInfo = "Pods-TestTwo_Example";
 		};
+		E11EF74F0C28EFAA8A0DB0C8C7ED42EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 229D76744B2F00F803D0D45A0FB9B38A;
+			remoteInfo = MGTestOne;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		028270762AC1154D5BBFE115F0B60B69 /* ONETest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ONETest.h; path = MGTestOne/MGTestOne/Classes/ONETest.h; sourceTree = "<group>"; };
+		0D12F69B2571E0B2F673F5DB6FE8907D /* MGTestArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGTestArray.m; path = MGTest/MGTest/Classes/MGTestArray.m; sourceTree = "<group>"; };
 		10DFCD7660C2663553A023BE6C104458 /* Pods-TestTwo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestTwo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1F218E2F9FD8AF73DABF966CFCB1CF8C /* Pods-TestTwo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestTwo_Example-dummy.m"; sourceTree = "<group>"; };
-		28AFF1DE657BCAC5904EFD75F7DAC7BA /* TestTwo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TestTwo-Info.plist"; sourceTree = "<group>"; };
+		26B8E3DE5A0623AE8710EC8E75EA1630 /* MGTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MGTest.framework; path = MGTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EE323FFFB41773C15EDBCEB8C438D19 /* MGTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGTest-dummy.m"; sourceTree = "<group>"; };
+		345C1F24DCE9B0EFEDBB375CC53D225C /* MGTestOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGTestOne.release.xcconfig; sourceTree = "<group>"; };
 		3962CC82309CFA8CFC5858CC29B115DC /* Pods-TestTwo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestTwo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		43DFFE4B637409B238DED434CF6320AA /* Pods-TestTwo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestTwo_Example.modulemap"; sourceTree = "<group>"; };
-		5056ECC220B5C5277D296006F0147678 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TestTwo/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		5936059D4B864F77107E9E65EBC088DF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4957A8D1E13C046A1D3AF8FB7AF04293 /* MGTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MGTest.modulemap; sourceTree = "<group>"; };
+		5021508C17BBA7E978E0EB87B8EE2E8F /* MGTestArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGTestArray.h; path = MGTest/MGTest/Classes/MGTestArray.h; sourceTree = "<group>"; };
 		59EE95FB12071A7F6073E81A3E60AD41 /* Pods-TestTwo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestTwo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		61B3512279F08A931E1B8398252E0D0F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5AD229556B0BB21DF89302C61E3FE103 /* MGTestOne-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGTestOne-umbrella.h"; sourceTree = "<group>"; };
 		65C36F633295394C1D8C791D1ECCFC80 /* Pods-TestTwo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestTwo_Tests-umbrella.h"; sourceTree = "<group>"; };
+		67ED6DEB2A5F0C8379C321689128BE31 /* MGTestOne.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MGTestOne.modulemap; sourceTree = "<group>"; };
+		6BF8C29C6013E7BF5408F373A08A6FE8 /* MGTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGTest.debug.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7666F5325E521862C26E4BDCCBD06A47 /* TestTwo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestTwo-umbrella.h"; sourceTree = "<group>"; };
-		7F88FE46E4F8B53F51D7E18C46B97F32 /* TestTwo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TestTwo.framework; path = TestTwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		83BC9F2AA2F2CD9294AD908A0B614B3F /* TestTwo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TestTwo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		85BF0D4DB8CBA5F16428D87214DCE2DA /* TestTwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestTwo.release.xcconfig; sourceTree = "<group>"; };
+		737291EB5A8668B944E8B0F7CA4A1743 /* MGTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MGTest-Info.plist"; sourceTree = "<group>"; };
+		7BB965449AF5FAAB2C3479F3A43B3E48 /* MGTestOne-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGTestOne-prefix.pch"; sourceTree = "<group>"; };
 		8B9274E89E680BA39172A06315345CD8 /* Pods-TestTwo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestTwo_Tests-Info.plist"; sourceTree = "<group>"; };
-		92950ACB81458E4181C70767A41E634C /* TestTwo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestTwo-prefix.pch"; sourceTree = "<group>"; };
-		98F86A78245EEA0C97567679E2EEA30E /* TestTwo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestTwo.debug.xcconfig; sourceTree = "<group>"; };
 		9BE0A2BB8B6A6DB3103966999ADE1874 /* Pods-TestTwo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestTwo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A015F767E8AF5B07083CD02D1D561FCE /* Pods-TestTwo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestTwo_Example-umbrella.h"; sourceTree = "<group>"; };
+		A972149473B03BF0D51AA076C4A85C37 /* MGTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGTest-umbrella.h"; sourceTree = "<group>"; };
 		B3AFACAAC2D214AAECFD4FA593DF5D1C /* Pods_TestTwo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestTwo_Tests.framework; path = "Pods-TestTwo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B414C423BCE65035057C3231B0F05498 /* Pods-TestTwo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestTwo_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B63F68D0F6FC0A2699BD52A0E77D0EDE /* MGTestOne-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MGTestOne-Info.plist"; sourceTree = "<group>"; };
 		BC10DB23062827547BF42E38DEF1F607 /* Pods_TestTwo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestTwo_Example.framework; path = "Pods-TestTwo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF9C3681D3DBE259F44FFB4180752D0F /* TestTwo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestTwo-dummy.m"; sourceTree = "<group>"; };
 		BFB3AC4433E42201D74C89FA86B7BB71 /* Pods-TestTwo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestTwo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C35498B8E3A7C03FA7D5E49F3223FB3C /* ONETest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ONETest.m; path = MGTestOne/MGTestOne/Classes/ONETest.m; sourceTree = "<group>"; };
+		C3738CA59AAEB26795566D8B072C3778 /* MGTestOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MGTestOne.framework; path = MGTestOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9518967382D3C09308077B4D922B20D /* Pods-TestTwo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestTwo_Example-Info.plist"; sourceTree = "<group>"; };
+		CF2EB0437776DAE0F787E6796AA476D6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MGTest/MGTest/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		D048829E0486EECE0112BB7A602BCA1F /* Pods-TestTwo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestTwo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D0B3A7223BF5F08EB32C04BF1C0B7003 /* Pods-TestTwo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestTwo_Tests-dummy.m"; sourceTree = "<group>"; };
 		D2B598D9B2E40860DE9EA63C9619ED26 /* Pods-TestTwo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestTwo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D83C7C594C921C77C788E4EB1B6237B5 /* Pods-TestTwo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestTwo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E16089DF1B954A5365EEB7033E4E9356 /* TestTwo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TestTwo.modulemap; sourceTree = "<group>"; };
+		E5FD0003C8B9E41B976963584DF2FF36 /* MGTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGTest-prefix.pch"; sourceTree = "<group>"; };
 		ECFD85698689FAAD5948126B044BC24B /* Pods-TestTwo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestTwo_Tests.modulemap"; sourceTree = "<group>"; };
+		F999A819DF17A3961EF78B16DE3C6B54 /* MGTestOne-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGTestOne-dummy.m"; sourceTree = "<group>"; };
+		FCC4C8871DB22C4C072BEC6393C7E5C3 /* MGTestOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGTestOne.debug.xcconfig; sourceTree = "<group>"; };
+		FCFD02FBF02441F55EE9E7D8E769DEA4 /* MGTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGTest.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4C6F446B6AD28DC0F2F1CA5E596ABD44 /* Frameworks */ = {
+		06C75595EDB1CC753B582E6F624C10B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF026BFB11477BA881457A117DBEDED1 /* Foundation.framework in Frameworks */,
+				5F0D965FBCED3130A5521840EEED9959 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4403F372FBBF1059EAD04B1E5C0403A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6438022A91FBCFE12D6D3CE0781ADD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B2822790A46675D90859A91D0F3E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BB1C097401E960D5194CFC8562C93B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,17 +128,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B7FEDD22B974CE835487B1CD800BBEA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2FF797B6ADD41E1C3CCB1178803796CE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04BCB823F891A6557F51E52CA6F573A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FF3D4F08730A1427DB3B735AA7E2296 /* MGTest */,
+				E58E972B56105BE9B690A223CE65F26D /* MGTestOne */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0E8A432531DA19BEFF4445202A3757FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				67ED6DEB2A5F0C8379C321689128BE31 /* MGTestOne.modulemap */,
+				F999A819DF17A3961EF78B16DE3C6B54 /* MGTestOne-dummy.m */,
+				B63F68D0F6FC0A2699BD52A0E77D0EDE /* MGTestOne-Info.plist */,
+				7BB965449AF5FAAB2C3479F3A43B3E48 /* MGTestOne-prefix.pch */,
+				5AD229556B0BB21DF89302C61E3FE103 /* MGTestOne-umbrella.h */,
+				FCC4C8871DB22C4C072BEC6393C7E5C3 /* MGTestOne.debug.xcconfig */,
+				345C1F24DCE9B0EFEDBB375CC53D225C /* MGTestOne.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MGTestOne";
+			sourceTree = "<group>";
+		};
 		19CFE3613E4E5013A0BF3011C4596A84 /* Pods-TestTwo_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,14 +172,6 @@
 			path = "Target Support Files/Pods-TestTwo_Example";
 			sourceTree = "<group>";
 		};
-		2829EECA93CDA3B70636CD92BA171A4F /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7CB0DE62ED7A6853BCEB84E09BE5E1B7 /* TestTwo */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,50 +180,42 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		60CEEA3FEF506BCF8299B716E6BFD05F /* Support Files */ = {
+		8FF3D4F08730A1427DB3B735AA7E2296 /* MGTest */ = {
 			isa = PBXGroup;
 			children = (
-				E16089DF1B954A5365EEB7033E4E9356 /* TestTwo.modulemap */,
-				BF9C3681D3DBE259F44FFB4180752D0F /* TestTwo-dummy.m */,
-				28AFF1DE657BCAC5904EFD75F7DAC7BA /* TestTwo-Info.plist */,
-				92950ACB81458E4181C70767A41E634C /* TestTwo-prefix.pch */,
-				7666F5325E521862C26E4BDCCBD06A47 /* TestTwo-umbrella.h */,
-				98F86A78245EEA0C97567679E2EEA30E /* TestTwo.debug.xcconfig */,
-				85BF0D4DB8CBA5F16428D87214DCE2DA /* TestTwo.release.xcconfig */,
+				5021508C17BBA7E978E0EB87B8EE2E8F /* MGTestArray.h */,
+				0D12F69B2571E0B2F673F5DB6FE8907D /* MGTestArray.m */,
+				CF2EB0437776DAE0F787E6796AA476D6 /* ReplaceMe.m */,
+				A460DA5472A4D2B56F5DAA8D639B334A /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TestTwo";
+			name = MGTest;
+			path = MGTest;
 			sourceTree = "<group>";
 		};
-		7CB0DE62ED7A6853BCEB84E09BE5E1B7 /* TestTwo */ = {
+		9C3487CE8BE95C6457A4421B58C3BA81 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5056ECC220B5C5277D296006F0147678 /* ReplaceMe.m */,
-				B376950F53F987F49622708766473BC8 /* Pod */,
-				60CEEA3FEF506BCF8299B716E6BFD05F /* Support Files */,
-			);
-			name = TestTwo;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		9D5BDCCC6FBA019DEB8B801C3B8BAF10 /* Products */ = {
-			isa = PBXGroup;
-			children = (
+				26B8E3DE5A0623AE8710EC8E75EA1630 /* MGTest.framework */,
+				C3738CA59AAEB26795566D8B072C3778 /* MGTestOne.framework */,
 				BC10DB23062827547BF42E38DEF1F607 /* Pods_TestTwo_Example.framework */,
 				B3AFACAAC2D214AAECFD4FA593DF5D1C /* Pods_TestTwo_Tests.framework */,
-				7F88FE46E4F8B53F51D7E18C46B97F32 /* TestTwo.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B376950F53F987F49622708766473BC8 /* Pod */ = {
+		A460DA5472A4D2B56F5DAA8D639B334A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				61B3512279F08A931E1B8398252E0D0F /* LICENSE */,
-				5936059D4B864F77107E9E65EBC088DF /* README.md */,
-				83BC9F2AA2F2CD9294AD908A0B614B3F /* TestTwo.podspec */,
+				4957A8D1E13C046A1D3AF8FB7AF04293 /* MGTest.modulemap */,
+				2EE323FFFB41773C15EDBCEB8C438D19 /* MGTest-dummy.m */,
+				737291EB5A8668B944E8B0F7CA4A1743 /* MGTest-Info.plist */,
+				E5FD0003C8B9E41B976963584DF2FF36 /* MGTest-prefix.pch */,
+				A972149473B03BF0D51AA076C4A85C37 /* MGTest-umbrella.h */,
+				6BF8C29C6013E7BF5408F373A08A6FE8 /* MGTest.debug.xcconfig */,
+				FCFD02FBF02441F55EE9E7D8E769DEA4 /* MGTest.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "../Target Support Files/MGTest";
 			sourceTree = "<group>";
 		};
 		B393A52BBAC255EEE304F78E076FA1B4 /* Targets Support Files */ = {
@@ -208,9 +247,9 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2829EECA93CDA3B70636CD92BA171A4F /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				9D5BDCCC6FBA019DEB8B801C3B8BAF10 /* Products */,
+				04BCB823F891A6557F51E52CA6F573A9 /* Pods */,
+				9C3487CE8BE95C6457A4421B58C3BA81 /* Products */,
 				B393A52BBAC255EEE304F78E076FA1B4 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -221,6 +260,17 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E58E972B56105BE9B690A223CE65F26D /* MGTestOne */ = {
+			isa = PBXGroup;
+			children = (
+				028270762AC1154D5BBFE115F0B60B69 /* ONETest.h */,
+				C35498B8E3A7C03FA7D5E49F3223FB3C /* ONETest.m */,
+				0E8A432531DA19BEFF4445202A3757FF /* Support Files */,
+			);
+			name = MGTestOne;
+			path = MGTestOne;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,41 +284,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EFEFB05A7673E157524798618B26FB9 /* Headers */ = {
+		831D497F6390DF0F30E4EE90B94333ED /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D84FE4AF175B75CD29751A38EE307E80 /* TestTwo-umbrella.h in Headers */,
+				B1CF283AC7152A4DF65EACCB391607AE /* MGTestOne-umbrella.h in Headers */,
+				7460BD58D420857A9E8567F5FA39C0C4 /* ONETest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9BD80978CC8448AE552EF395A29B2095 /* Headers */ = {
+		D3E3AF954C74D94A4D7939357210F9CF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				091402FFE1B8DA7A56BE29419634F942 /* Pods-TestTwo_Example-umbrella.h in Headers */,
+				06B951A2A0AAE0D0F096D9A62B283757 /* Pods-TestTwo_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF116E3EBCB3371CF0F90D6505F250F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10BA47B1822612AA1AE17053D27AF0B5 /* MGTest-umbrella.h in Headers */,
+				243F561E81F83FF24EDBADF23C7B5F8E /* MGTestArray.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1990029AD2E3C5AFB2FEABD6A4AC91CE /* TestTwo */ = {
+		229D76744B2F00F803D0D45A0FB9B38A /* MGTestOne */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5F8FC0EFDE376D9A3C370E42A88DAC1 /* Build configuration list for PBXNativeTarget "TestTwo" */;
+			buildConfigurationList = B71311CFE962162ECE4FDCF0A68854ED /* Build configuration list for PBXNativeTarget "MGTestOne" */;
 			buildPhases = (
-				6EFEFB05A7673E157524798618B26FB9 /* Headers */,
-				55AEFB5B82611D2D511227FA861911E4 /* Sources */,
-				8B7FEDD22B974CE835487B1CD800BBEA /* Frameworks */,
-				52B47CEB7C22DA76A44EBC008192F314 /* Resources */,
+				831D497F6390DF0F30E4EE90B94333ED /* Headers */,
+				3126E993CB804ACE8BAC28F7E4860A20 /* Sources */,
+				06C75595EDB1CC753B582E6F624C10B4 /* Frameworks */,
+				B426A81D6CEDD2FC3BB32553B65B1360 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TestTwo;
-			productName = TestTwo;
-			productReference = 7F88FE46E4F8B53F51D7E18C46B97F32 /* TestTwo.framework */;
+			name = MGTestOne;
+			productName = MGTestOne;
+			productReference = C3738CA59AAEB26795566D8B072C3778 /* MGTestOne.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		726CF75197305053A72EE9D524787ACD /* Pods-TestTwo_Tests */ = {
@@ -283,26 +343,45 @@
 			buildRules = (
 			);
 			dependencies = (
-				B30063C5A08DC72B6444176B4F280FC1 /* PBXTargetDependency */,
+				D2DFC8BB1B78FBA0B085043B58C64FDB /* PBXTargetDependency */,
 			);
 			name = "Pods-TestTwo_Tests";
 			productName = "Pods-TestTwo_Tests";
 			productReference = B3AFACAAC2D214AAECFD4FA593DF5D1C /* Pods_TestTwo_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		98AB16A34AC4F736A0AF407BD58EDF59 /* Pods-TestTwo_Example */ = {
+		8D79AC63D2A78B87B44DD92C3148030F /* MGTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 223F934EDFAF209BF1C6A07B619F670D /* Build configuration list for PBXNativeTarget "Pods-TestTwo_Example" */;
+			buildConfigurationList = 4862FCD6FEC302069A1FA7A8F3E73671 /* Build configuration list for PBXNativeTarget "MGTest" */;
 			buildPhases = (
-				9BD80978CC8448AE552EF395A29B2095 /* Headers */,
-				31C8AE29B65465BAEE6CD9E69D7969B5 /* Sources */,
-				4C6F446B6AD28DC0F2F1CA5E596ABD44 /* Frameworks */,
-				58FA1C9B2C8527B129681F98249B6978 /* Resources */,
+				DFF116E3EBCB3371CF0F90D6505F250F /* Headers */,
+				4753C3658A9D3CFD26517D1D9607F3E4 /* Sources */,
+				64B2822790A46675D90859A91D0F3E05 /* Frameworks */,
+				7B026C91EE290289FBF8EFE221AAF1CF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				634913FFCBEEAC639A5F759AC5866B4D /* PBXTargetDependency */,
+			);
+			name = MGTest;
+			productName = MGTest;
+			productReference = 26B8E3DE5A0623AE8710EC8E75EA1630 /* MGTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98AB16A34AC4F736A0AF407BD58EDF59 /* Pods-TestTwo_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71BFDDC495DAAFD8B23211A8EC5A9D56 /* Build configuration list for PBXNativeTarget "Pods-TestTwo_Example" */;
+			buildPhases = (
+				D3E3AF954C74D94A4D7939357210F9CF /* Headers */,
+				584E7D910A2480A2D6B0D2A1BB3B3C22 /* Sources */,
+				4403F372FBBF1059EAD04B1E5C0403A7 /* Frameworks */,
+				241F0B5ADE4848A2991BD37966F25439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E263CBDC014993EE3E2BD43D659B6FE /* PBXTargetDependency */,
+				125861CB283262563865054702E8CF80 /* PBXTargetDependency */,
 			);
 			name = "Pods-TestTwo_Example";
 			productName = "Pods-TestTwo_Example";
@@ -327,26 +406,34 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9D5BDCCC6FBA019DEB8B801C3B8BAF10 /* Products */;
+			productRefGroup = 9C3487CE8BE95C6457A4421B58C3BA81 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				8D79AC63D2A78B87B44DD92C3148030F /* MGTest */,
+				229D76744B2F00F803D0D45A0FB9B38A /* MGTestOne */,
 				98AB16A34AC4F736A0AF407BD58EDF59 /* Pods-TestTwo_Example */,
 				726CF75197305053A72EE9D524787ACD /* Pods-TestTwo_Tests */,
-				1990029AD2E3C5AFB2FEABD6A4AC91CE /* TestTwo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		52B47CEB7C22DA76A44EBC008192F314 /* Resources */ = {
+		241F0B5ADE4848A2991BD37966F25439 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58FA1C9B2C8527B129681F98249B6978 /* Resources */ = {
+		7B026C91EE290289FBF8EFE221AAF1CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B426A81D6CEDD2FC3BB32553B65B1360 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,20 +450,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		31C8AE29B65465BAEE6CD9E69D7969B5 /* Sources */ = {
+		3126E993CB804ACE8BAC28F7E4860A20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				167124124D3D893AF5060148CC733A87 /* Pods-TestTwo_Example-dummy.m in Sources */,
+				245903000201C1FC568283498331BA8A /* MGTestOne-dummy.m in Sources */,
+				0452DFADEE17F0D545794C6633B9E962 /* ONETest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55AEFB5B82611D2D511227FA861911E4 /* Sources */ = {
+		4753C3658A9D3CFD26517D1D9607F3E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C42E93B277E323334FBE8B7DE0EA43ED /* ReplaceMe.m in Sources */,
-				EDA9F879D8D98D03E35F73D60BEBB5AE /* TestTwo-dummy.m in Sources */,
+				4C0A84D8DC7F79E187246009E0334C9A /* MGTest-dummy.m in Sources */,
+				BB5CB7391D4D1DAAB45067F76AD3F111 /* MGTestArray.m in Sources */,
+				77BB81FDEFADC49AF688E87744E5CD59 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,20 +477,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		584E7D910A2480A2D6B0D2A1BB3B3C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEED8E2E5965FB0E7E23107C5D921441 /* Pods-TestTwo_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		634913FFCBEEAC639A5F759AC5866B4D /* PBXTargetDependency */ = {
+		125861CB283262563865054702E8CF80 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = TestTwo;
-			target = 1990029AD2E3C5AFB2FEABD6A4AC91CE /* TestTwo */;
-			targetProxy = 8024115929A0ADF081CABB59D7FDA0B2 /* PBXContainerItemProxy */;
+			name = MGTestOne;
+			target = 229D76744B2F00F803D0D45A0FB9B38A /* MGTestOne */;
+			targetProxy = E11EF74F0C28EFAA8A0DB0C8C7ED42EC /* PBXContainerItemProxy */;
 		};
-		B30063C5A08DC72B6444176B4F280FC1 /* PBXTargetDependency */ = {
+		8E263CBDC014993EE3E2BD43D659B6FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGTest;
+			target = 8D79AC63D2A78B87B44DD92C3148030F /* MGTest */;
+			targetProxy = 05425FF5BFF6D31D86612A720618C96E /* PBXContainerItemProxy */;
+		};
+		D2DFC8BB1B78FBA0B085043B58C64FDB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TestTwo_Example";
 			target = 98AB16A34AC4F736A0AF407BD58EDF59 /* Pods-TestTwo_Example */;
-			targetProxy = E359F326B99297CA77A5E42C553F7725 /* PBXContainerItemProxy */;
+			targetProxy = 884B1266D7DC1A1B5EEAD037AF33179E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -505,11 +608,10 @@
 			};
 			name = Debug;
 		};
-		2ED65F0BE6AF42F74833027CE7ABE21E /* Release */ = {
+		3BA92ABCEE8F7B3E6C8A649E3727A77E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59EE95FB12071A7F6073E81A3E60AD41 /* Pods-TestTwo_Example.release.xcconfig */;
+			baseConfigurationReference = 345C1F24DCE9B0EFEDBB375CC53D225C /* MGTestOne.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -518,19 +620,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TestTwo_Example/Pods-TestTwo_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MGTestOne/MGTestOne-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGTestOne/MGTestOne-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TestTwo_Example/Pods-TestTwo_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/MGTestOne/MGTestOne.modulemap";
+				PRODUCT_MODULE_NAME = MGTestOne;
+				PRODUCT_NAME = MGTestOne;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -538,9 +639,9 @@
 			};
 			name = Release;
 		};
-		38DDC7E033B8CFBA08BB6510AB6171FC /* Debug */ = {
+		450DB9B772C3DB01238EAB00D9DBE5B2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98F86A78245EEA0C97567679E2EEA30E /* TestTwo.debug.xcconfig */;
+			baseConfigurationReference = FCFD02FBF02441F55EE9E7D8E769DEA4 /* MGTest.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -550,29 +651,29 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TestTwo/TestTwo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TestTwo/TestTwo-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MGTest/MGTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGTest/MGTest-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TestTwo/TestTwo.modulemap";
-				PRODUCT_MODULE_NAME = TestTwo;
-				PRODUCT_NAME = TestTwo;
+				MODULEMAP_FILE = "Target Support Files/MGTest/MGTest.modulemap";
+				PRODUCT_MODULE_NAME = MGTest;
+				PRODUCT_NAME = MGTest;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		3D5685526A020206A09A3577FD0C5CBF /* Debug */ = {
+		5267100A11B807827698D09CD9C3A5B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10DFCD7660C2663553A023BE6C104458 /* Pods-TestTwo_Example.debug.xcconfig */;
+			baseConfigurationReference = 6BF8C29C6013E7BF5408F373A08A6FE8 /* MGTest.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -581,19 +682,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TestTwo_Example/Pods-TestTwo_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MGTest/MGTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGTest/MGTest-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TestTwo_Example/Pods-TestTwo_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/MGTest/MGTest.modulemap";
+				PRODUCT_MODULE_NAME = MGTest;
+				PRODUCT_NAME = MGTest;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -626,6 +726,101 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87F94C2185E402840F46882B94D14F23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59EE95FB12071A7F6073E81A3E60AD41 /* Pods-TestTwo_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestTwo_Example/Pods-TestTwo_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestTwo_Example/Pods-TestTwo_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9A5F12B5EC4D7D1A7334223435DE7D4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10DFCD7660C2663553A023BE6C104458 /* Pods-TestTwo_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestTwo_Example/Pods-TestTwo_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestTwo_Example/Pods-TestTwo_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A7D72EDB4E4AADD7E66097778DC17C77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC4C8871DB22C4C072BEC6393C7E5C3 /* MGTestOne.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MGTestOne/MGTestOne-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGTestOne/MGTestOne-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGTestOne/MGTestOne.modulemap";
+				PRODUCT_MODULE_NAME = MGTestOne;
+				PRODUCT_NAME = MGTestOne;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -694,54 +889,32 @@
 			};
 			name = Release;
 		};
-		DAA6BA91D074BFA4E5EF40105FA680F1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85BF0D4DB8CBA5F16428D87214DCE2DA /* TestTwo.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TestTwo/TestTwo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TestTwo/TestTwo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TestTwo/TestTwo.modulemap";
-				PRODUCT_MODULE_NAME = TestTwo;
-				PRODUCT_NAME = TestTwo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		223F934EDFAF209BF1C6A07B619F670D /* Build configuration list for PBXNativeTarget "Pods-TestTwo_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3D5685526A020206A09A3577FD0C5CBF /* Debug */,
-				2ED65F0BE6AF42F74833027CE7ABE21E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
 				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4862FCD6FEC302069A1FA7A8F3E73671 /* Build configuration list for PBXNativeTarget "MGTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5267100A11B807827698D09CD9C3A5B5 /* Debug */,
+				450DB9B772C3DB01238EAB00D9DBE5B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71BFDDC495DAAFD8B23211A8EC5A9D56 /* Build configuration list for PBXNativeTarget "Pods-TestTwo_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A5F12B5EC4D7D1A7334223435DE7D4E /* Debug */,
+				87F94C2185E402840F46882B94D14F23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -755,11 +928,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E5F8FC0EFDE376D9A3C370E42A88DAC1 /* Build configuration list for PBXNativeTarget "TestTwo" */ = {
+		B71311CFE962162ECE4FDCF0A68854ED /* Build configuration list for PBXNativeTarget "MGTestOne" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				38DDC7E033B8CFBA08BB6510AB6171FC /* Debug */,
-				DAA6BA91D074BFA4E5EF40105FA680F1 /* Release */,
+				A7D72EDB4E4AADD7E66097778DC17C77 /* Debug */,
+				3BA92ABCEE8F7B3E6C8A649E3727A77E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
